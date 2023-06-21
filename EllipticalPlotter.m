@@ -5,7 +5,8 @@
 
 clear all; clc; close all;
 
-% -------------------------------------------------------------------------
+% ------------------------------------------------------------------------- 
+% Read in files from 'SVDeclusteringAnalysis.m'
 control_all = readmatrix('');
 low_all     = readmatrix('');
 high_all    = readmatrix('');
